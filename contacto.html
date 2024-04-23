@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto </title>
+    
+
+
+</head>
+<body>
+    
+    <header>
+        <h1> TITULO</h1> 
+        <nav>
+         <ul>
+            <li><a href="index.html"> inicio </a></li>
+            <li><a href="contacto.html">contacto</a></li>
+            <li><a href="formulario.html">formulario</a></li>
+            <li><a href="historia.html">historia</a></li>
+            <li><a href="productos.html">productos</a></li>
+        
+         </ul>  
+        </nav>
+    </header>
+
+      <h1 id="formu">-- formulario-- </h1>
+
+    <form id="formulario_contacto" action="formulario.html" method="get" >
+        <label for="nombre"><b>Escribe tu nombre:</b></label>
+      
+     <input type="text" name="nombre" id="nombre"  placeHolder="ingrese su nombre" />
+     
+
+     <br/><br/>
+    
+     <label for="Apellido"><b>Escribe tu Apellido:</b></label>
+     <input type="text" name="apellido" id="Apellido" placeHolder="ingrese su Apellido" />
+     
+     <br/><br/>
+     <label for="dni"><b>ingrese su D.N.I:</b></label>
+     
+     <input type="text" name="dni" id="d.n.i"  placeHolder="ingrese su D.N.I"/>
+     
+     <br/><br/>
+      <b>localidad :</b><select name="localidad">
+        <option>  San Clemente del Tuyú</option>
+        <option>Santa Teresita</option>
+        <option>Las Toninas</option>
+        <option> Mar de Ajó</option>
+        <option>San Bernardo</option>
+        <option>Costa chica</option>
+        <option>La lucila del mar </option>
+        <option>costa azul</option>
+        <option>mar del Tuyú</option>
+        <option>costa del este</option>
+        <option>aguas verdes</option>
+        <option> nueva atlantis</option>
+        <option>costa esmeralda</option>
+        <option>  San Clemente del Tuyú</option>
+       
+        </select>
+        <br/><br/>
+     <b>¿ cual es su genero?:</b>
+     <li><input type="radio" name="sexo" value="hombre" checked="checked" /> Hombre</li>
+     <li><input type="radio" name="sexo" value="mujer" /> Mujer</li>
+     <li><input type="radio" name="sexo" value="no binario" /> no binario</li>
+     <li><input type="radio" name="sexo" value="no revelar" /> no revelar</li>
+
+     <br/><br/>
+     <b>¿ cual es tu signo zodiacal? :</b> <select name="signo">
+        <option> picis</option>
+        <option>acuario</option>
+        <option>tauro</option>
+        <option> geminis</option>
+        <option>sagitario</option>
+        <option> aries</option>
+        <option>cancer </option>
+        <option>leo</option>
+        <option>virgo</option>
+        <option>libra</option>
+        <option>escorpio</option>
+        <option>capricornio</option>
+       
+        </select>
+        <br/><br/>
+        <b>¿cual es tu preferencia musical?:</b>
+        <textarea name="preferenciaMusical"> </textarea> 
+        <br/><br/>
+       
+        <input type="submit" value="Enviar" />
+
+    </form>
+    <footer> <p> derechos de autor © 2023 EESTN1 DPTO de programacion . todos los derechos reservardos</p></footer>
+
+ 
+   
+</body>
+</html>
